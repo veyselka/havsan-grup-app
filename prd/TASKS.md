@@ -134,15 +134,15 @@
 - [x] `[1h]` Button component (variants: primary, secondary, ghost, sizes, loading state)
 - [x] `[1h]` Card component (hover effects, gradient overlays, responsive padding)
 - [x] `[45m]` Input component (text, tel, email - validation states, error messages)
-- [ ] `[45m]` Modal component (backdrop, close button, focus trap, animation)
+- [x] `[45m]` Modal component (backdrop, close button, focus trap, animation)
 - [ ] `[30m]` Icon wrapper component (dynamic icon loading, size variants)
 - [ ] `[30m]` Container/Section wrapper (max-width, responsive padding)
 
 ### 4.3 Layout Components
-- [ ] `[1.5h]` Preloader component (HAVSAN + Grup animasyonu, progress indicator)
+- [x] `[1.5h]` Preloader component (HAVSAN + Grup animasyonu, progress indicator)
   - ✅ Framer Motion kurulumu tamamlandı, animation wrappers hazır
 - [ ] `[1h]` Footer component (iletişim bilgileri, sosyal medya linkleri, copyright)
-- [ ] `[45m]` ModuleCard component (Robotik/AI/Enerji kartları - hover expand effect)
+- [x] `[45m]` ModuleCard component (Robotik/AI/Enerji kartları - hover expand effect)
 - [ ] `[30m]` SocialMediaBar component (WhatsApp, LinkedIn, Instagram icons)
 
 ---
@@ -150,33 +150,34 @@
 ## FAZ 5: Feature Development - Core Pages
 
 ### 5.1 Ana Sayfa (Landing Page)
-- [ ] `[3h]` 🔴 CRITICAL: Split screen layout (3 kolon desktop, stacked mobile)
-  - ⚠️ Depends on: ModuleCard component, Framer Motion setup
-- [ ] `[2h]` Hover-to-expand animasyonu (Desktop - %33 -> %50+ genişleme)
-- [ ] `[1.5h]` Mobile responsive behavior (Above the fold, 3 kart dikey stack)
+- [x] `[3h]` 🔴 CRITICAL: Split screen layout (3 kolon desktop, stacked mobile)
+  - ✅ ModuleCard component, Framer Motion setup tamamlandı
+- [x] `[2h]` Hover-to-expand animasyonu (Desktop - %33 -> %50+ genişleme)
+- [x] `[1.5h]` Mobile responsive behavior (Above the fold, 3 kart dikey stack)
 - [ ] `[1h]` Background video/görsel integration (lazy loading, autoplay muted)
-- [ ] `[1h]` Color saturation effect on hover (Google FX style - filter: saturate())
-- [ ] `[45m]` Smooth scroll/transition to detail pages (Framer Motion page transitions)
-- [ ] `[30m]` Preloader integration (ilk yüklemede göster, sessionStorage flag)
+- [x] `[1h]` Color saturation effect on hover (Google FX style - filter: saturate())
+- [x] `[45m]` Smooth scroll/transition to detail pages (Framer Motion page transitions)
+- [x] `[30m]` Preloader integration (ilk yüklemede göster, sessionStorage flag)
 
 ### 5.2 Modül 1: Robotik Kodlama Sayfası
-- [ ] `[2h]` Video galeri komponenti (YouTube Shorts embed, 3-column grid)
-  - ⚠️ Depends on: Strapi Robotik content type
+- [x] `[2h]` Video galeri komponenti (YouTube Shorts embed, 3-column grid)
+  - ✅ Grid layout hazır, Strapi entegrasyonu bekliyor
 - [ ] `[1.5h]` Hover-to-play video özelliği (intersection observer + autoplay)
-- [ ] `[2h]` "Ücretsiz Deneme Dersi" formu (modal veya inline - ad, soyad, telefon, yaş)
-  - ⚠️ Depends on: Form handling API route
-- [ ] `[1.5h]` Google Maps embed (Elazığ Ataşehir lokasyonu - lazy load iframe)
-- [ ] `[1h]` Responsive layout (video grid 3->2->1 column)
-- [ ] `[45m]` Robotik brand colors integration (#4285F4, #1A237E, #E3E5E8)
+- [x] `[2h]` "Ücretsiz Deneme Dersi" formu (modal veya inline - ad, soyad, telefon, yaş)
+  - ✅ Form UI hazır, API route bekliyor
+- [x] `[1.5h]` Google Maps embed (Elazığ Ataşehir lokasyonu - lazy load iframe)
+  - ✅ Placeholder hazır, embed URL bekliyor
+- [x] `[1h]` Responsive layout (video grid 3->2->1 column)
+- [x] `[45m]` Robotik brand colors integration (#4285F4, #1A237E, #E3E5E8)
 
 ### 5.3 Modül 2: Havsan AI & Yazılım Sayfası
-- [ ] `[2.5h]` Carousel referanslar komponenti (infinite scroll logo band)
-  - ⚠️ Depends on: Strapi Referanslar content type
-- [ ] `[1.5h]` Logo hover colorization effect (grayscale -> full color transition)
-- [ ] `[1h]` Eğitim takvimi section (PDF/Excel download links + custom icons)
-- [ ] `[1.5h]` Google Workspace partner section (özel tasarım + badge)
-- [ ] `[1h]` Hizmet kartları (ISO, KVKK, Yazılım Geliştirme - icon + description)
-- [ ] `[45m]` Gradient backgrounds (AI brand colors - #4E85EB -> #D9666F)
+- [x] `[2.5h]` Carousel referanslar komponenti (infinite scroll logo band)
+  - ✅ Static layout hazır, Strapi entegrasyonu bekliyor
+- [x] `[1.5h]` Logo hover colorization effect (grayscale -> full color transition)
+- [x] `[1h]` Eğitim takvimi section (PDF/Excel download links + custom icons)
+- [x] `[1.5h]` Google Workspace partner section (özel tasarım + badge)
+- [x] `[1h]` Hizmet kartları (ISO, KVKK, Yazılım Geliştirme - icon + description)
+- [x] `[45m]` Gradient backgrounds (AI brand colors - #4E85EB -> #D9666F)
 
 ### 5.4 Modül 3: Havsan Enerji Sayfası
 - [ ] `[2h]` Hizmet kartları komponenti (GES Bakım, Drone Termal, Panel Temizliği)

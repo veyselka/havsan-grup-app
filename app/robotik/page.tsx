@@ -14,8 +14,36 @@ export default function RobotikPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Form submission logic
-    console.log('Form submitted:', formData);
+    
+    try {
+      const response = await fetch('/api/form-submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          formType: 'robotik',
+          ...formData,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        alert('Formunuz başarıyla gönderildi! En kısa sürede size dönüş yapacağız.');
+        setFormData({
+          parentName: '',
+          childName: '',
+          phone: '',
+          age: '',
+        });
+      } else {
+        alert(result.message || 'Bir hata oluştu. Lütfen tekrar deneyiniz.');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      alert('Bir hata oluştu. Lütfen tekrar deneyiniz.');
+    }
   };
 
   return (

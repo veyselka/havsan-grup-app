@@ -23,3 +23,7 @@ export type {
   ModalBodyProps,
   ModalFooterProps,
 } from './Modal';
+
+export { Container, Section } from './Container';
+
+export { Icon } from './Icon';
