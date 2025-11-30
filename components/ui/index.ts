@@ -27,3 +27,9 @@ export type {
 export { Container, Section } from './Container';
 
 export { Icon } from './Icon';
+
+export { ToastProvider, useToast } from './Toast';
+
+export { OptimizedImage } from './OptimizedImage';
+
+export { LazyVideo } from './LazyVideo';

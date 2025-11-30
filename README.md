@@ -176,15 +176,29 @@ export function Button({
 ## 🧪 Testing
 
 ```bash
-# Unit tests
-npm run test
+# Unit tests (Jest + React Testing Library)
+npm test                    # Watch mode
+npm run test:ci            # CI mode
 
-# E2E tests
-npm run test:e2e
+# E2E tests (Playwright)
+npm run test:e2e           # Headless mode
+npm run test:e2e:ui        # UI mode
+npm run test:e2e:headed    # Headed mode
 
-# Coverage
-npm run test:coverage
+# Linting & Type checking
+npm run lint               # ESLint
+npm run type-check        # TypeScript
+npm run format            # Prettier
+
+# Bundle analysis
+npm run analyze           # Analyze bundle size
 ```
+
+### Test Coverage
+- UI Components: Button, Input, Card, Modal
+- Form Validation: Zod schemas
+- E2E Flows: Navigation, Forms, User journeys
+- Utilities: cn(), constants
 
 ## 📦 Deployment
 
@@ -219,6 +233,9 @@ Private - Havsan Grup © 2025
 - [PRD (Product Requirements Document)](./prd/PRD.md)
 - [TASKS (Development Tasks)](./prd/TASKS.md)
 - [Müşteri İsterleri](./prd/Müşteri%20İsterleri.md)
+- [DEPLOYMENT Guide](./DEPLOYMENT.md)
+- [PERFORMANCE Optimization](./PERFORMANCE.md)
+- [ACCESSIBILITY Checklist](./ACCESSIBILITY.md)
 
 ## 🔗 Links
 

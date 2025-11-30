@@ -1,24 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { sendEmail } from '@/lib/email';
+import { contactFormSchema, robotikFormSchema } from '@/lib/validation';
 import { z } from 'zod';
-
-// Validation schema
-const contactFormSchema = z.object({
-  name: z.string().min(2, 'İsim en az 2 karakter olmalıdır'),
-  email: z.string().email('Geçerli bir e-posta adresi giriniz'),
-  phone: z.string().optional(),
-  message: z.string().min(10, 'Mesaj en az 10 karakter olmalıdır'),
-  businessUnit: z.enum(['robotik', 'ai', 'enerji']).optional(),
-});
-
-const robotikFormSchema = z.object({
-  parentName: z.string().min(2, 'Veli adı en az 2 karakter olmalıdır'),
-  childName: z.string().min(2, 'Çocuk adı en az 2 karakter olmalıdır'),
-  phone: z.string().min(10, 'Geçerli bir telefon numarası giriniz'),
-  age: z.string().refine((val) => {
-    const num = parseInt(val);
-    return num >= 6 && num <= 18;
-  }, 'Yaş 6-18 arasında olmalıdır'),
-});
 
 export async function POST(request: NextRequest) {
   try {
@@ -33,13 +16,22 @@ export async function POST(request: NextRequest) {
       validatedData = contactFormSchema.parse(body);
     }
 
-    // TODO: Implement email sending logic here
-    // Example with Nodemailer (requires setup):
-    // await sendEmail({
-    //   to: process.env.SMTP_TO_EMAIL,
-    //   subject: `Yeni Form: ${formType}`,
-    //   html: generateEmailTemplate(validatedData, formType),
-    // });
+    // Send email notification
+    const emailTo = process.env.SMTP_TO_EMAIL || process.env.SMTP_USER || '';
+    
+    if (emailTo) {
+      try {
+        await sendEmail({
+          to: emailTo,
+          subject: `Yeni Form Gönderimi: ${formType === 'robotik' ? 'Robotik Kodlama' : 'İletişim'}`,
+          html: generateEmailTemplate(validatedData, formType),
+          replyTo: formType === 'robotik' ? undefined : (validatedData as { email?: string }).email,
+        });
+      } catch (emailError) {
+        console.error('Email sending failed:', emailError);
+        // Continue even if email fails - form was still received
+      }
+    }
 
     // TODO: Optional - Save to Strapi
     // await createEntry('form-submissions', {

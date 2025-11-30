@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "robotiks",
+  "info": {
+    "singularName": "robotik",
+    "pluralName": "robotiks",
+    "displayName": "Robotik"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "videos": {
+      "type": "json"
+    },
+    "educationContent": {
+      "type": "blocks"
+    },
+    "mapUrl": {
+      "type": "string"
+    }
+  }
+}

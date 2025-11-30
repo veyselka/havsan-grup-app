@@ -8,7 +8,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-gray-200 bg-gray-900 text-white">
+    <footer className="border-t border-gray-200 bg-gray-900 text-white" role="contentinfo" aria-label="Site footer">
       <Container size="lg">
         <div className="py-12">
           {/* Main Footer Content */}
@@ -91,6 +91,14 @@ export function Footer() {
                     className="text-gray-400 transition-colors hover:text-white"
                   >
                     Hakkımızda
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/iletisim"
+                    className="text-gray-400 transition-colors hover:text-white"
+                  >
+                    İletişim
                   </Link>
                 </li>
               </ul>

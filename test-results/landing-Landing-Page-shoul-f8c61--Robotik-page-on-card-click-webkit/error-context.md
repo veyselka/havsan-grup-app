@@ -1,0 +1,86 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation "Ana navigasyon" [ref=e2]:
+    - generic [ref=e4]:
+      - link "HAVSAN Grup Logo HAVSAN" [ref=e5]:
+        - /url: /
+        - img "HAVSAN Grup Logo" [ref=e6]
+        - generic [ref=e7]: HAVSAN
+      - generic [ref=e8]:
+        - link "Ana Sayfa" [ref=e9]:
+          - /url: /
+        - link "Robotik" [ref=e10]:
+          - /url: /robotik
+        - link "AI & Yazılım" [ref=e11]:
+          - /url: /ai
+        - link "Enerji" [ref=e12]:
+          - /url: /enerji
+        - link "Hakkımızda" [ref=e13]:
+          - /url: /hakkimizda
+        - link "İletişim" [ref=e14]:
+          - /url: /iletisim
+  - generic [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]: HAVSAN
+      - generic [ref=e20]: GRUP
+    - paragraph [ref=e23]: Yükleniyor... 100%
+  - contentinfo "Site footer" [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - heading "HAVSAN GRUP" [level=3] [ref=e29]
+          - paragraph [ref=e30]: Robotik Kodlama, AI & Yazılım, Enerji Çözümleri
+          - generic [ref=e31]:
+            - link "LinkedIn" [ref=e32]:
+              - /url: https://linkedin.com/company/havsan-grup
+              - img [ref=e33]
+            - link "Instagram" [ref=e35]:
+              - /url: https://instagram.com/havsangrup
+              - img [ref=e36]
+        - generic [ref=e38]:
+          - heading "Hızlı Bağlantılar" [level=4] [ref=e39]
+          - list [ref=e40]:
+            - listitem [ref=e41]:
+              - link "Robotik Kodlama" [ref=e42]:
+                - /url: /robotik
+            - listitem [ref=e43]:
+              - link "AI & Yazılım" [ref=e44]:
+                - /url: /ai
+            - listitem [ref=e45]:
+              - link "Enerji Çözümleri" [ref=e46]:
+                - /url: /enerji
+            - listitem [ref=e47]:
+              - link "Hakkımızda" [ref=e48]:
+                - /url: /hakkimizda
+            - listitem [ref=e49]:
+              - link "İletişim" [ref=e50]:
+                - /url: /iletisim
+        - generic [ref=e51]:
+          - heading "İştiraklerimiz" [level=4] [ref=e52]
+          - list [ref=e53]:
+            - listitem [ref=e54]: Robotik Kodlama
+            - listitem [ref=e55]: AI & Yazılım
+            - listitem [ref=e56]: Enerji Çözümleri
+        - generic [ref=e57]:
+          - heading "İletişim" [level=4] [ref=e58]
+          - list [ref=e59]:
+            - listitem [ref=e60]:
+              - link "bilgi@havsanrobotik.com.tr" [ref=e61]:
+                - /url: mailto:bilgi@havsanrobotik.com.tr
+            - listitem [ref=e62]:
+              - link "+90 534 785 59 57" [ref=e63]:
+                - /url: tel:+90 534 785 59 57
+            - listitem [ref=e64]: Ankara, Yenimahalle
+      - generic [ref=e66]:
+        - paragraph [ref=e67]: © 2025 Havsan Grup. Tüm hakları saklıdır.
+        - generic [ref=e68]:
+          - link "Gizlilik Politikası" [ref=e69]:
+            - /url: /privacy
+          - link "Kullanım Şartları" [ref=e70]:
+            - /url: /terms
+  - button "Open Next.js Dev Tools" [ref=e76] [cursor=pointer]:
+    - img [ref=e77]
+  - alert [ref=e82]: Robotik Kodlama Eğitimi | Havsan Grup
+```

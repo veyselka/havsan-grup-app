@@ -11,3 +11,5 @@ export type {
   ScaleInProps,
   StaggerContainerProps,
 } from './AnimationWrappers';
+
+export { FadeInWhenVisible } from './FadeInWhenVisible';

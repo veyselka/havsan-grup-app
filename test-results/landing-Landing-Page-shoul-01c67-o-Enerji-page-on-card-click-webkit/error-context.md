@@ -1,0 +1,257 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation "Ana navigasyon" [ref=e2]:
+    - generic [ref=e4]:
+      - link "HAVSAN Grup Logo HAVSAN" [ref=e5]:
+        - /url: /
+        - img "HAVSAN Grup Logo" [ref=e6]
+        - generic [ref=e7]: HAVSAN
+      - generic [ref=e8]:
+        - link "Ana Sayfa" [ref=e9]:
+          - /url: /
+        - link "Robotik" [ref=e10]:
+          - /url: /robotik
+        - link "AI & Yazılım" [ref=e11]:
+          - /url: /ai
+        - link "Enerji" [ref=e12]:
+          - /url: /enerji
+        - link "Hakkımızda" [ref=e13]:
+          - /url: /hakkimizda
+        - link "İletişim" [ref=e14]:
+          - /url: /iletisim
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - img "Güneş Enerjisi" [ref=e19]
+      - generic [ref=e22]:
+        - heading "Enerji Çözümleri" [level=1] [ref=e23]
+        - paragraph [ref=e24]: Yenilenebilir enerji sektöründe profesyonel bakım, izleme ve danışmanlık hizmetleri
+        - link "Teklif Alın" [ref=e25]:
+          - /url: https://wa.me/905347855957
+          - button "Teklif Alın" [ref=e26] [cursor=pointer]
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading "Hizmetlerimiz" [level=2] [ref=e32]
+        - paragraph [ref=e33]: Enerji sektörüne özel profesyonel çözümler
+      - generic [ref=e35]:
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: ☀️
+            - heading "GES Bakım" [level=3] [ref=e43]
+          - paragraph [ref=e44]: Güneş enerjisi santrallerinin periyodik bakım ve onarım hizmetleri
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - generic [ref=e47]: ✓
+              - generic [ref=e48]: Periyodik bakım
+            - listitem [ref=e49]:
+              - generic [ref=e50]: ✓
+              - generic [ref=e51]: Arıza tespiti
+            - listitem [ref=e52]:
+              - generic [ref=e53]: ✓
+              - generic [ref=e54]: Performans analizi
+            - listitem [ref=e55]:
+              - generic [ref=e56]: ✓
+              - generic [ref=e57]: Teknik raporlama
+          - button "Detaylı Bilgi" [ref=e58] [cursor=pointer]
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]: 🚁
+            - heading "Drone Termal İzleme" [level=3] [ref=e66]
+          - paragraph [ref=e67]: Termal kamera ile güneş panellerinde arıza tespiti ve performans kontrolü
+          - list [ref=e68]:
+            - listitem [ref=e69]:
+              - generic [ref=e70]: ✓
+              - generic [ref=e71]: Termal görüntüleme
+            - listitem [ref=e72]:
+              - generic [ref=e73]: ✓
+              - generic [ref=e74]: Hızlı arıza tespiti
+            - listitem [ref=e75]:
+              - generic [ref=e76]: ✓
+              - generic [ref=e77]: Detaylı raporlama
+            - listitem [ref=e78]:
+              - generic [ref=e79]: ✓
+              - generic [ref=e80]: Maliyet tasarrufu
+          - button "Detaylı Bilgi" [ref=e81] [cursor=pointer]
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]: 💧
+            - heading "Panel Temizliği" [level=3] [ref=e89]
+          - paragraph [ref=e90]: Profesyonel ekipmanlarla güneş paneli temizlik hizmetleri
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - generic [ref=e93]: ✓
+              - generic [ref=e94]: Özel ekipman
+            - listitem [ref=e95]:
+              - generic [ref=e96]: ✓
+              - generic [ref=e97]: Çevre dostu ürünler
+            - listitem [ref=e98]:
+              - generic [ref=e99]: ✓
+              - generic [ref=e100]: Düzenli temizlik
+            - listitem [ref=e101]:
+              - generic [ref=e102]: ✓
+              - generic [ref=e103]: Verim artışı
+          - button "Detaylı Bilgi" [ref=e104] [cursor=pointer]
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e110]: 📊
+            - heading "Teknik Danışmanlık" [level=3] [ref=e112]
+          - paragraph [ref=e113]: Enerji sektörüne yönelik teknik danışmanlık ve proje yönetimi
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - generic [ref=e116]: ✓
+              - generic [ref=e117]: Proje yönetimi
+            - listitem [ref=e118]:
+              - generic [ref=e119]: ✓
+              - generic [ref=e120]: Teknik analiz
+            - listitem [ref=e121]:
+              - generic [ref=e122]: ✓
+              - generic [ref=e123]: Maliyet optimizasyonu
+            - listitem [ref=e124]:
+              - generic [ref=e125]: ✓
+              - generic [ref=e126]: Kalite kontrol
+          - button "Detaylı Bilgi" [ref=e127] [cursor=pointer]
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - heading "Saha Çalışmalarımız" [level=2] [ref=e131]
+        - paragraph [ref=e132]: Güneş enerji santrallerinde gerçekleştirdiğimiz profesyonel hizmetlerden görüntüler
+      - generic [ref=e133]:
+        - generic [ref=e136] [cursor=pointer]:
+          - generic [ref=e138]:
+            - generic [ref=e139]: 🔧
+            - generic [ref=e140]:
+              - heading "GES Bakım Çalışması" [level=3] [ref=e141]
+              - paragraph [ref=e142]: Bakım
+          - generic [ref=e144]:
+            - paragraph [ref=e145]: GES Bakım Çalışması
+            - paragraph [ref=e146]: Güneş enerji santralinde rutin bakım ve kontrol işlemleri
+        - generic [ref=e149] [cursor=pointer]:
+          - generic [ref=e151]:
+            - generic [ref=e152]: 🚁
+            - generic [ref=e153]:
+              - heading "Drone Termal Görüntüleme" [level=3] [ref=e154]
+              - paragraph [ref=e155]: Termal
+          - generic [ref=e157]:
+            - paragraph [ref=e158]: Drone Termal Görüntüleme
+            - paragraph [ref=e159]: Termal kamera ile panel sıcaklık haritası çıkarma
+        - generic [ref=e162] [cursor=pointer]:
+          - generic [ref=e164]:
+            - generic [ref=e165]: 💧
+            - generic [ref=e166]:
+              - heading "Panel Temizlik İşlemi" [level=3] [ref=e167]
+              - paragraph [ref=e168]: Temizlik
+          - generic [ref=e170]:
+            - paragraph [ref=e171]: Panel Temizlik İşlemi
+            - paragraph [ref=e172]: Robot sistemler ile panel temizliği uygulaması
+        - generic [ref=e175] [cursor=pointer]:
+          - generic [ref=e177]:
+            - generic [ref=e178]: 🔧
+            - generic [ref=e179]:
+              - heading "İnverter Kontrolü" [level=3] [ref=e180]
+              - paragraph [ref=e181]: Bakım
+          - generic [ref=e183]:
+            - paragraph [ref=e184]: İnverter Kontrolü
+            - paragraph [ref=e185]: İnverter sistemlerinin periyodik kontrolü ve bakımı
+        - generic [ref=e188] [cursor=pointer]:
+          - generic [ref=e190]:
+            - generic [ref=e191]: 🔧
+            - generic [ref=e192]:
+              - heading "Kablo Bağlantı Kontrolü" [level=3] [ref=e193]
+              - paragraph [ref=e194]: Bakım
+          - generic [ref=e196]:
+            - paragraph [ref=e197]: Kablo Bağlantı Kontrolü
+            - paragraph [ref=e198]: Elektrik kablolarının ve bağlantı noktalarının testi
+        - generic [ref=e201] [cursor=pointer]:
+          - generic [ref=e203]:
+            - generic [ref=e204]: 📊
+            - generic [ref=e205]:
+              - heading "Performans Analizi" [level=3] [ref=e206]
+              - paragraph [ref=e207]: Analiz
+          - generic [ref=e209]:
+            - paragraph [ref=e210]: Performans Analizi
+            - paragraph [ref=e211]: Santral performans ölçümü ve raporlama çalışması
+      - generic [ref=e212]:
+        - generic [ref=e214]:
+          - generic [ref=e215]: ⚡
+          - heading "Hızlı Servis" [level=3] [ref=e216]
+          - paragraph [ref=e217]: Santrallerinizde oluşan arızalara 24 saat içinde müdahale ediyoruz
+        - generic [ref=e219]:
+          - generic [ref=e220]: 🎯
+          - heading "Uzman Ekip" [level=3] [ref=e221]
+          - paragraph [ref=e222]: Sertifikalı teknik personelimiz ile profesyonel hizmet sunuyoruz
+        - generic [ref=e224]:
+          - generic [ref=e225]: 📈
+          - heading "Verimlilik" [level=3] [ref=e226]
+          - paragraph [ref=e227]: Düzenli bakım ile santral verimliliğinde %20-30 artış sağlıyoruz
+    - generic [ref=e229]:
+      - generic [ref=e230]:
+        - heading "Teknik Detaylar" [level=2] [ref=e231]
+        - paragraph [ref=e232]: Hizmetlerimiz hakkında detaylı bilgi
+      - generic [ref=e233]:
+        - generic [ref=e234] [cursor=pointer]:
+          - heading "GES Bakım Süreçleri" [level=3] [ref=e235]
+          - paragraph [ref=e236]: Periyodik kontroller, inverter bakımı, panel temizliği ve performans testlerini içeren kapsamlı bakım programları sunuyoruz.
+        - generic [ref=e237] [cursor=pointer]:
+          - heading "Drone Teknolojisi" [level=3] [ref=e238]
+          - paragraph [ref=e239]: Son teknoloji termal kameralar ile donalı dronelarımız sayesinde hızlı ve etkili arıza tespiti yapıyoruz.
+        - generic [ref=e240] [cursor=pointer]:
+          - heading "Kalite Standartları" [level=3] [ref=e241]
+          - paragraph [ref=e242]: Tüm hizmetlerimiz uluslararası kalite standartlarına uygun olarak gerçekleştirilmektedir.
+  - contentinfo "Site footer" [ref=e243]:
+    - generic [ref=e245]:
+      - generic [ref=e246]:
+        - generic [ref=e247]:
+          - heading "HAVSAN GRUP" [level=3] [ref=e248]
+          - paragraph [ref=e249]: Robotik Kodlama, AI & Yazılım, Enerji Çözümleri
+          - generic [ref=e250]:
+            - link "LinkedIn" [ref=e251]:
+              - /url: https://linkedin.com/company/havsan-grup
+              - img [ref=e252]
+            - link "Instagram" [ref=e254]:
+              - /url: https://instagram.com/havsangrup
+              - img [ref=e255]
+        - generic [ref=e257]:
+          - heading "Hızlı Bağlantılar" [level=4] [ref=e258]
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - link "Robotik Kodlama" [ref=e261]:
+                - /url: /robotik
+            - listitem [ref=e262]:
+              - link "AI & Yazılım" [ref=e263]:
+                - /url: /ai
+            - listitem [ref=e264]:
+              - link "Enerji Çözümleri" [ref=e265]:
+                - /url: /enerji
+            - listitem [ref=e266]:
+              - link "Hakkımızda" [ref=e267]:
+                - /url: /hakkimizda
+            - listitem [ref=e268]:
+              - link "İletişim" [ref=e269]:
+                - /url: /iletisim
+        - generic [ref=e270]:
+          - heading "İştiraklerimiz" [level=4] [ref=e271]
+          - list [ref=e272]:
+            - listitem [ref=e273]: Robotik Kodlama
+            - listitem [ref=e274]: AI & Yazılım
+            - listitem [ref=e275]: Enerji Çözümleri
+        - generic [ref=e276]:
+          - heading "İletişim" [level=4] [ref=e277]
+          - list [ref=e278]:
+            - listitem [ref=e279]:
+              - link "bilgi@havsanrobotik.com.tr" [ref=e280]:
+                - /url: mailto:bilgi@havsanrobotik.com.tr
+            - listitem [ref=e281]:
+              - link "+90 534 785 59 57" [ref=e282]:
+                - /url: tel:+90 534 785 59 57
+            - listitem [ref=e283]: Ankara, Yenimahalle
+      - generic [ref=e285]:
+        - paragraph [ref=e286]: © 2025 Havsan Grup. Tüm hakları saklıdır.
+        - generic [ref=e287]:
+          - link "Gizlilik Politikası" [ref=e288]:
+            - /url: /privacy
+          - link "Kullanım Şartları" [ref=e289]:
+            - /url: /terms
+  - button "Open Next.js Dev Tools" [ref=e295] [cursor=pointer]:
+    - img [ref=e296]
+  - alert [ref=e301]: Enerji Çözümleri | Havsan Grup
+```

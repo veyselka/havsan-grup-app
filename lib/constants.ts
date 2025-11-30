@@ -56,9 +56,9 @@ export const NAV_LINKS = [
 
 // Contact Information
 export const CONTACT_INFO = {
-  email: 'info@havsangrup.com',
-  phone: '+90 XXX XXX XX XX',
-  address: 'Adres Bilgisi TBD',
+  email: 'bilgi@havsanrobotik.com.tr',
+  phone: '+90 534 785 59 57',
+  address: 'Ankara, Yenimahalle',
   socialMedia: {
     linkedin: 'https://linkedin.com/company/havsan-grup',
     twitter: 'https://twitter.com/havsangrup',

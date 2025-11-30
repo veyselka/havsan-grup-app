@@ -5,6 +5,7 @@ import { AnimatePresence } from 'framer-motion';
 import { Preloader } from '@/components/sections/Preloader';
 import { ModuleCard } from '@/components/sections/ModuleCard';
 import { BUSINESS_UNITS } from '@/lib/constants';
+import { WebVitals } from '@/components/WebVitals';
 
 export default function Home() {
   const [showPreloader, setShowPreloader] = useState(true);
@@ -34,11 +35,12 @@ export default function Home() {
       </AnimatePresence>
 
       {/* 3-Column Split Screen Layout */}
-      <div className="grid lg:grid-cols-3">
+      <div className="grid lg:grid-cols-3 min-h-screen">
         <ModuleCard
           title="Robotik Kodlama"
           description={BUSINESS_UNITS.robotik.description}
           href="/robotik"
+          backgroundImage="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
           colors={{
             primary: BUSINESS_UNITS.robotik.color,
             bg: BUSINESS_UNITS.robotik.bgColor || '#E3E5E8',
@@ -65,6 +67,7 @@ export default function Home() {
           title="AI & Yazılım"
           description={BUSINESS_UNITS.ai.description}
           href="/ai"
+          backgroundImage="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
           colors={{
             primary: BUSINESS_UNITS.ai.color,
             bg: '#F5F7FA',
@@ -91,6 +94,7 @@ export default function Home() {
           title="Enerji Çözümleri"
           description={BUSINESS_UNITS.enerji.description}
           href="/enerji"
+          backgroundImage="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80"
           colors={{
             primary: BUSINESS_UNITS.enerji.color,
             bg: '#FFFBF0',
@@ -113,6 +117,7 @@ export default function Home() {
           }
         />
       </div>
+      <WebVitals />
     </main>
   );
 }

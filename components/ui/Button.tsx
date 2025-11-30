@@ -24,15 +24,15 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       <button
         ref={ref}
         className={cn(
-          'inline-flex items-center justify-center rounded-lg font-semibold transition-all duration-200 disabled:cursor-not-allowed disabled:opacity-50',
+          'inline-flex items-center justify-center rounded-lg font-semibold transition-all duration-200 disabled:cursor-not-allowed disabled:opacity-50 focus:outline-none focus:ring-2 focus:ring-offset-2',
           {
-            'bg-google-blue text-white hover:bg-google-blue/90 active:bg-google-blue/80':
+            'bg-google-blue text-white hover:bg-google-blue/90 active:bg-google-blue/80 focus:ring-google-blue':
               variant === 'primary',
-            'bg-gray-200 text-gray-900 hover:bg-gray-300 active:bg-gray-400':
+            'bg-gray-200 text-gray-900 hover:bg-gray-300 active:bg-gray-400 focus:ring-gray-400':
               variant === 'secondary',
-            'bg-transparent text-gray-700 hover:bg-gray-100 active:bg-gray-200':
+            'bg-transparent text-gray-700 hover:bg-gray-100 active:bg-gray-200 focus:ring-gray-300':
               variant === 'ghost',
-            'border-2 border-gray-300 bg-transparent text-gray-700 hover:border-gray-400 hover:bg-gray-50':
+            'border-2 border-gray-300 bg-transparent text-gray-700 hover:border-gray-400 hover:bg-gray-50 focus:ring-gray-400':
               variant === 'outline',
             'px-3 py-1.5 text-sm': size === 'sm',
             'px-4 py-2 text-base': size === 'md',
@@ -41,6 +41,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           className
         )}
         disabled={disabled || isLoading}
+        aria-busy={isLoading}
         {...props}
       >
         {isLoading && (
@@ -49,6 +50,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
+            aria-hidden="true"
           >
             <circle
               className="opacity-25"

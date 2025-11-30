@@ -86,7 +86,8 @@ export function ScaleIn({
   );
 }
 
-export interface StaggerContainerProps extends HTMLAttributes<HTMLDivElement> {
+export interface StaggerContainerProps {
+  className?: string;
   staggerDelay?: number;
   children: React.ReactNode;
 }
@@ -112,7 +113,6 @@ export function StaggerContainer({
         },
       }}
       className={className}
-      {...props}
     >
       {children}
     </motion.div>

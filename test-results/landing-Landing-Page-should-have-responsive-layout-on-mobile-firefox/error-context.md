@@ -1,0 +1,111 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation "Ana navigasyon" [ref=e2]:
+    - generic [ref=e4]:
+      - link "HAVSAN Grup Logo HAVSAN" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "HAVSAN Grup Logo" [ref=e6]
+        - generic [ref=e7]: HAVSAN
+      - button "Menüyü aç" [ref=e8] [cursor=pointer]:
+        - img [ref=e9]
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - link "Robotik Kodlama sayfasına git" [ref=e16] [cursor=pointer]:
+        - /url: /robotik
+        - generic [ref=e17]:
+          - img "Robotik Kodlama" [ref=e19]
+          - generic [ref=e22]:
+            - img [ref=e24]
+            - heading "Robotik Kodlama" [level=2] [ref=e26]
+            - paragraph [ref=e27]: STEM ve robotik kodlama eğitimleri
+            - generic:
+              - img
+      - link "AI & Yazılım sayfasına git" [ref=e29] [cursor=pointer]:
+        - /url: /ai
+        - generic [ref=e30]:
+          - img "AI & Yazılım" [ref=e32]
+          - generic [ref=e35]:
+            - img [ref=e37]
+            - heading "AI & Yazılım" [level=2] [ref=e39]
+            - paragraph [ref=e40]: Yapay zeka ve yazılım geliştirme çözümleri
+            - generic:
+              - img
+      - link "Enerji Çözümleri sayfasına git" [ref=e42] [cursor=pointer]:
+        - /url: /enerji
+        - generic [ref=e43]:
+          - img "Enerji Çözümleri" [ref=e45]
+          - generic [ref=e48]:
+            - img [ref=e50]
+            - heading "Enerji Çözümleri" [level=2] [ref=e52]
+            - paragraph [ref=e53]: Yenilenebilir enerji ve endüstriyel çözümler
+            - generic:
+              - img
+  - contentinfo "Site footer" [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - heading "HAVSAN GRUP" [level=3] [ref=e60]
+          - paragraph [ref=e61]: Robotik Kodlama, AI & Yazılım, Enerji Çözümleri
+          - generic [ref=e62]:
+            - link "LinkedIn" [ref=e63] [cursor=pointer]:
+              - /url: https://linkedin.com/company/havsan-grup
+              - img [ref=e64]
+            - link "Instagram" [ref=e66] [cursor=pointer]:
+              - /url: https://instagram.com/havsangrup
+              - img [ref=e67]
+        - generic [ref=e69]:
+          - heading "Hızlı Bağlantılar" [level=4] [ref=e70]
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Robotik Kodlama" [ref=e73] [cursor=pointer]:
+                - /url: /robotik
+            - listitem [ref=e74]:
+              - link "AI & Yazılım" [ref=e75] [cursor=pointer]:
+                - /url: /ai
+            - listitem [ref=e76]:
+              - link "Enerji Çözümleri" [ref=e77] [cursor=pointer]:
+                - /url: /enerji
+            - listitem [ref=e78]:
+              - link "Hakkımızda" [ref=e79] [cursor=pointer]:
+                - /url: /hakkimizda
+            - listitem [ref=e80]:
+              - link "İletişim" [ref=e81] [cursor=pointer]:
+                - /url: /iletisim
+        - generic [ref=e82]:
+          - heading "İştiraklerimiz" [level=4] [ref=e83]
+          - list [ref=e84]:
+            - listitem [ref=e85]: Robotik Kodlama
+            - listitem [ref=e86]: AI & Yazılım
+            - listitem [ref=e87]: Enerji Çözümleri
+        - generic [ref=e88]:
+          - heading "İletişim" [level=4] [ref=e89]
+          - list [ref=e90]:
+            - listitem [ref=e91]:
+              - link "bilgi@havsanrobotik.com.tr" [ref=e92] [cursor=pointer]:
+                - /url: mailto:bilgi@havsanrobotik.com.tr
+            - listitem [ref=e93]:
+              - link "+90 534 785 59 57" [ref=e94] [cursor=pointer]:
+                - /url: tel:+90 534 785 59 57
+            - listitem [ref=e95]: Ankara, Yenimahalle
+      - generic [ref=e97]:
+        - paragraph [ref=e98]: © 2025 Havsan Grup. Tüm hakları saklıdır.
+        - generic [ref=e99]:
+          - link "Gizlilik Politikası" [ref=e100] [cursor=pointer]:
+            - /url: /privacy
+          - link "Kullanım Şartları" [ref=e101] [cursor=pointer]:
+            - /url: /terms
+  - generic [ref=e106] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e107]:
+      - img [ref=e108]
+    - generic [ref=e112]:
+      - button "Open issues overlay" [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]: "0"
+          - generic [ref=e116]: "1"
+        - generic [ref=e117]: Issue
+      - button "Collapse issues badge" [ref=e118]:
+        - img [ref=e119]
+  - alert [ref=e121]
+```

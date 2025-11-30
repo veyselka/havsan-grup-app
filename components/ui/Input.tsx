@@ -29,11 +29,19 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
             error && 'border-google-red focus:border-google-red focus:ring-google-red/20',
             className
           )}
+          aria-invalid={error ? 'true' : 'false'}
+          aria-describedby={error ? `${inputId}-error` : helperText ? `${inputId}-helper` : undefined}
           {...props}
         />
-        {error && <p className="mt-1.5 text-sm text-google-red">{error}</p>}
+        {error && (
+          <p id={`${inputId}-error`} className="mt-1.5 text-sm text-google-red" role="alert">
+            {error}
+          </p>
+        )}
         {helperText && !error && (
-          <p className="mt-1.5 text-sm text-gray-500">{helperText}</p>
+          <p id={`${inputId}-helper`} className="mt-1.5 text-sm text-gray-500">
+            {helperText}
+          </p>
         )}
       </div>
     );

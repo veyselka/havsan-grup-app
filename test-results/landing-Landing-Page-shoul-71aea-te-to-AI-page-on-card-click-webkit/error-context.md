@@ -1,0 +1,113 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation "Ana navigasyon" [ref=e2]:
+    - generic [ref=e4]:
+      - link "HAVSAN Grup Logo HAVSAN" [ref=e5]:
+        - /url: /
+        - img "HAVSAN Grup Logo" [ref=e6]
+        - generic [ref=e7]: HAVSAN
+      - generic [ref=e8]:
+        - link "Ana Sayfa" [ref=e9]:
+          - /url: /
+        - link "Robotik" [ref=e10]:
+          - /url: /robotik
+        - link "AI & Yazılım" [ref=e11]:
+          - /url: /ai
+        - link "Enerji" [ref=e12]:
+          - /url: /enerji
+        - link "Hakkımızda" [ref=e13]:
+          - /url: /hakkimizda
+        - link "İletişim" [ref=e14]:
+          - /url: /iletisim
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - link "Robotik Kodlama sayfasına git" [ref=e18]:
+        - /url: /robotik
+        - generic [ref=e19] [cursor=pointer]:
+          - img "Robotik Kodlama" [ref=e21]
+          - generic [ref=e24]:
+            - img [ref=e26]
+            - heading "Robotik Kodlama" [level=2] [ref=e28]
+            - paragraph [ref=e29]: STEM ve robotik kodlama eğitimleri
+            - generic:
+              - img
+      - link "AI & Yazılım sayfasına git" [ref=e31]:
+        - /url: /ai
+        - generic [ref=e32] [cursor=pointer]:
+          - img "AI & Yazılım" [ref=e34]
+          - generic [ref=e37]:
+            - img [ref=e39]
+            - heading "AI & Yazılım" [level=2] [ref=e41]
+            - paragraph [ref=e42]: Yapay zeka ve yazılım geliştirme çözümleri
+            - generic:
+              - img
+      - link "Enerji Çözümleri sayfasına git" [ref=e44]:
+        - /url: /enerji
+        - generic [ref=e45] [cursor=pointer]:
+          - img "Enerji Çözümleri" [ref=e47]
+          - generic [ref=e50]:
+            - img [ref=e52]
+            - heading "Enerji Çözümleri" [level=2] [ref=e54]
+            - paragraph [ref=e55]: Yenilenebilir enerji ve endüstriyel çözümler
+            - generic:
+              - img
+  - contentinfo "Site footer" [ref=e57]:
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - heading "HAVSAN GRUP" [level=3] [ref=e62]
+          - paragraph [ref=e63]: Robotik Kodlama, AI & Yazılım, Enerji Çözümleri
+          - generic [ref=e64]:
+            - link "LinkedIn" [ref=e65]:
+              - /url: https://linkedin.com/company/havsan-grup
+              - img [ref=e66]
+            - link "Instagram" [ref=e68]:
+              - /url: https://instagram.com/havsangrup
+              - img [ref=e69]
+        - generic [ref=e71]:
+          - heading "Hızlı Bağlantılar" [level=4] [ref=e72]
+          - list [ref=e73]:
+            - listitem [ref=e74]:
+              - link "Robotik Kodlama" [ref=e75]:
+                - /url: /robotik
+            - listitem [ref=e76]:
+              - link "AI & Yazılım" [ref=e77]:
+                - /url: /ai
+            - listitem [ref=e78]:
+              - link "Enerji Çözümleri" [ref=e79]:
+                - /url: /enerji
+            - listitem [ref=e80]:
+              - link "Hakkımızda" [ref=e81]:
+                - /url: /hakkimizda
+            - listitem [ref=e82]:
+              - link "İletişim" [ref=e83]:
+                - /url: /iletisim
+        - generic [ref=e84]:
+          - heading "İştiraklerimiz" [level=4] [ref=e85]
+          - list [ref=e86]:
+            - listitem [ref=e87]: Robotik Kodlama
+            - listitem [ref=e88]: AI & Yazılım
+            - listitem [ref=e89]: Enerji Çözümleri
+        - generic [ref=e90]:
+          - heading "İletişim" [level=4] [ref=e91]
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "bilgi@havsanrobotik.com.tr" [ref=e94]:
+                - /url: mailto:bilgi@havsanrobotik.com.tr
+            - listitem [ref=e95]:
+              - link "+90 534 785 59 57" [ref=e96]:
+                - /url: tel:+90 534 785 59 57
+            - listitem [ref=e97]: Ankara, Yenimahalle
+      - generic [ref=e99]:
+        - paragraph [ref=e100]: © 2025 Havsan Grup. Tüm hakları saklıdır.
+        - generic [ref=e101]:
+          - link "Gizlilik Politikası" [ref=e102]:
+            - /url: /privacy
+          - link "Kullanım Şartları" [ref=e103]:
+            - /url: /terms
+  - button "Open Next.js Dev Tools" [ref=e109] [cursor=pointer]:
+    - img [ref=e110]
+  - alert [ref=e115]
+```
